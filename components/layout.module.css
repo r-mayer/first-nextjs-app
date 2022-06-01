@@ -2,8 +2,10 @@
     max-width: 50rem;
     padding: 0 1rem;
     margin: 7rem auto 6rem;
-    border: 1px solid rgba(128, 128, 128, 0.322);
+    border: 1px solid rgba(128, 128, 128, 0.222);
     border-radius: 0.7rem;
+    box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 0.1);
+    overflow-x: hidden;
 }
 
 .header {
@@ -21,4 +23,22 @@
     overflow: hidden;
     display: flex;
     filter: invert(100%) sepia(100%) saturate(1%) hue-rotate(34deg) brightness(102%) contrast(101%);
+}
+
+.headingContainer {
+    width: 110%;
+    display: flex;
+    justify-content: center;
+    height: 80px;
+    position: relative;
+    overflow: hidden;
+}
+
+.bgImage {
+    width: 800px;
+    transform: scale(1.4);
+    position: absolute;
+    top: -4rem;
+    right: -6rem;
+    opacity: 0.7;
 }

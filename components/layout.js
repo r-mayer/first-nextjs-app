@@ -43,15 +43,18 @@ export default function Layout({ children, home }) {
                     </>
                 ) : (
                     <>
-                        <div className={styles.logo_wrapper}>
-                            <Image
-                            priority
-                            src="/images/logo.svg"
-                            className={utilStyles.logo}
-                            height={108}
-                            width={108}
-                            alt={name}
-                            />
+                        <div className={styles.headingContainer}>
+                            <img src='/images/bg-form.png' alt='bg' className={styles.bgImage}/>
+                            <div className={styles.logo_wrapper}>
+                                <Image
+                                priority
+                                src="/images/logo.svg"
+                                className={utilStyles.logo}
+                                height={108}
+                                width={108}
+                                alt={name}
+                                />
+                            </div>
                         </div>
                         <h2 className={utilStyles.headingLg}>
                             <Link href="/">
