@@ -29,22 +29,25 @@ export default function Layout({ children, home }) {
             <header className={styles.header}>
                 {home ? (
                     <>
-                        <div className={styles.logo_wrapper}>
-                            <Image
-                                priority
-                                src="/images/logo.svg"
-                                className={utilStyles.logo}
-                                height={140}
-                                width={140}
-                                alt={name}
-                            />
-                        </div>                        
+                        <div className={styles.headingContainer}>
+                            <img src='/images/bg-form.png' alt='bg' className={styles.bgImageHome}/>
+                            <div className={styles.logo_wrapper}>
+                                <Image
+                                    priority
+                                    src="/images/logo.svg"
+                                    className={utilStyles.logo}
+                                    height={140}
+                                    width={140}
+                                    alt={name}
+                                />
+                            </div>
+                        </div>                      
                         <h1 className={utilStyles.heading2Xl}>{name}</h1>
                     </>
                 ) : (
                     <>
                         <div className={styles.headingContainer}>
-                            <img src='/images/bg-form.png' alt='bg' className={styles.bgImage}/>
+                            <img src='/images/bg-stats-img.png' alt='bg' className={styles.bgImagePost}/>
                             <div className={styles.logo_wrapper}>
                                 <Image
                                 priority
