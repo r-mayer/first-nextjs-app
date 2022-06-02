@@ -6,7 +6,7 @@ import Link from 'next/link';
 import Navbar from './Navbar';
 
 const name = 'TRACTIAN BLOG';
-export const siteTitle = 'Next.js - Um teste de site'
+export const siteTitle = 'TRACTIAN BLOG - Um teste de site'
 
 
 export default function Layout({ children, home }) {

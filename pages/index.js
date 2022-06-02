@@ -26,7 +26,7 @@ export default function Home({ allPostsData }) {
         <p>Os dados dos posts abaixo são extraídos automaticamente de arquivos markdown que estão dentro da root do projeto. Após os dados serem extraídos, as páginas e rotas são automaticamente geradas. </p>
       </section>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
-        <h2 className={utilStyles.headingLg}>Blog</h2>
+        <h2 className={utilStyles.headingLg}>Blog 🧢</h2>
         <ul className={utilStyles.list}>
           {allPostsData.map(({ id, date, title }) => (
             <li className={utilStyles.listItem} key={id}>
