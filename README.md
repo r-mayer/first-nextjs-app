@@ -1,1 +1,5 @@
-This is a starter template for [Learn Next.js](https://nextjs.org/learn).
+This is my first Next.js app. 
+
+Live site can be visit here: https://first-nextjs-app-alpha.vercel.app/.
+
+I will update this README later :)
