@@ -1,6 +1,6 @@
 ---
 title: 'Sobre a TRACTIAN'
-date: '2020-01-06'
+date: '2022-06-01'
 ---
 
 Queremos que todos os profissionais de manutenção tenham acesso ao monitoramento online de equipamentos, e a uma plataforma “braço direito” que analisa, fornece insights valiosos, otimiza rotinas e permite tomada de decisões de forma prática e eficaz.
