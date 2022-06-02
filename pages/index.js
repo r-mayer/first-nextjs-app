@@ -23,6 +23,7 @@ export default function Home({ allPostsData }) {
       <section className={utilStyles.headingMd}>
         <p>Este é meu primeiro app criado utilizando o framework NextJs.</p>
         <p>Trata-se de um simples Blog com design baseado nesta <a href="https://r-mayer.github.io/tractian-react-landing-page/">landing page</a> criada por mim.</p>
+        <p>Os dados dos posts abaixo são extraídos automaticamente de arquivos markdown que estão dentro da root do projeto. Após os dados serem extraídos, as páginas e rotas são automaticamente geradas. </p>
       </section>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
         <h2 className={utilStyles.headingLg}>Blog</h2>
