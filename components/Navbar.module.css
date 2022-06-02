@@ -57,6 +57,16 @@
     font-size: 2rem;
 }
 
+.menuLink {
+    text-decoration: none;
+    color: inherit;
+    border: none;
+}
+
+.menuLink:hover {
+    border: none;
+}
+
 
 @keyframes grow {
     0% {
