@@ -36,6 +36,7 @@
 
 .bgImageHome {
     width: 900px;
+    min-width: 410px;
     transform: scale(1.4);
     position: absolute;
     top: -4rem;
@@ -45,6 +46,7 @@
 
 .bgImagePost {
     width: 800px;
+    min-width: 470px;
     transform: scale(1.3);
     position: absolute;
     top: -8rem;
